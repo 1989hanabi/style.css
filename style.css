@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* すべてのWebページに適用される */
+html * {
+  box-sizing: border-box
+}
+
+img {
+  /* 画像が画面の横幅からはみ出るのを防ぐためにmaxサイズを設定します */
+  
+  width: 100%;
+  max-width: 800px;  /* 画像の横幅サイズにあわせて最大幅を指定します */
+  height: 450px;      /* 縦の高さを固定します */
+  object-fit: cover;/* 横幅は画面サイズにあわせて伸縮します */
+  
+}
+
+h1{
+  padding:20px 20px;
+  color:orange;
+  
+}
+
+/*点は消す*/
+li{
+list-style: none  
+}
+
+/*背景色を設定　灰色*/
+body{
+  background-color: #eeece9;
+  margin:0000;
+}
+
+.wrapper {
+  margin:0 auto 0 auto;
+  max-width: 800px;
+}
+
+footer{
+  border-top: 3px solid #00000;
+}
+
